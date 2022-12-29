@@ -657,7 +657,7 @@ banner
 }
 
 #top .left-content {
-  background-image: url(../images/top-left-bg.jpg);
+  background-image: url(../images/back-banner.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -923,7 +923,7 @@ menu
 }
 
 .card1 {
-  background-image: url(../images/cardapio/quibe3.jpg);
+  background-image: url(../images/cardapio/shawarma-3.jpeg);
 }
 .card2 {
   background-image: url(../images/cardapio/quibe.jpg);
@@ -1473,12 +1473,12 @@ footer
 footer {
   margin-top: 60px;
   padding: 50px 0px;
-  background-color: #884000;
+  background-color: #a67137;
 }
 
 footer .left-text-content p {
   margin-top: 5px;
-  color: #fff;
+  color: rgb(2, 2, 2);
   font-size: 14px;
   text-align: right;
 }
