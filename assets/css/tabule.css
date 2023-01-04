@@ -680,6 +680,13 @@ banner
   font-weight: 700;
 }
 
+#bottom h4 {
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  font-size: 54px;
+  font-weight: 700;
+}
+
 #top .left-content h6 {
   font-size: 15px;
   text-transform: uppercase;
@@ -1473,12 +1480,12 @@ footer
 footer {
   margin-top: 60px;
   padding: 50px 0px;
-  background-color: #a67137;
+  background-color: rgb(166,113,55,0.9);
 }
 
 footer .left-text-content p {
   margin-top: 5px;
-  color: rgb(2, 2, 2);
+  color: rgb(255, 255, 255);
   font-size: 14px;
   text-align: right;
 }
@@ -1536,6 +1543,12 @@ responsive
 */
 
 @media (max-width: 992px) {
+  #about img {
+    height: 100px;
+  }
+  .thumb {
+    width: auto;
+  }
   #top {
     padding-top: 100px;
     height: auto;
@@ -1670,8 +1683,4 @@ responsive
   100% {
     opacity: 0;
   }
-}
-
-video {
-  pointer-events: none;
 }
