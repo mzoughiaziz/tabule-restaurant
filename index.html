@@ -269,7 +269,7 @@
                                 <div class="phone">
                                     <i class="fa fa-phone"></i>
                                     <h4>Número de telefone</h4>
-                                    <span><a href="https://api.whatsapp.com/send/?phone=553433228003&text=Obrigado+pela+sua+mensagem%21+N%C3%B3s+voltaremos+para+voc%C3%AA+em+breve%21&type=phone_number&app_absent=0">(34) 33228003</a></span>
+                                    <span><a href="https://api.whatsapp.com/send/?phone=553433228003&text=Obrigado+pela+sua+mensagem%21+N%C3%B3s+voltaremos+para+voc%C3%AA+em+breve%21&type=phone_number&app_absent=0" target="_blank">(34) 33228003</a></span>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -292,11 +292,13 @@
                             <div class="col-lg-6 col-sm-12">
                               <fieldset>
                                 <input name="Nome" type="text" id="name" placeholder="Seu Nome" required="">
+                                <input type="hidden" name="_captcha" value="false">
                               </fieldset>
                             </div>
                             <div class="col-lg-6 col-sm-12">
                               <fieldset>
                                 <input name="Celular" type="text" id="phone" placeholder="Número de telefone" required="">
+                                <input type="hidden" name="_next"  value="https://tabule-uberaba.vercel.app/thankyou.html" required>
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
